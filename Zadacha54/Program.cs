@@ -1,4 +1,7 @@
 ﻿
+using System;
+using static System.Console;
+
 Write("Введите количество строк массива: ");
 int rows = int.Parse(ReadLine());
 Write("Введите количество столбцов массива: ");
